@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on CyberCarnet</title>
+    <link>https://cybercarnet.eu/tags/</link>
+    <description>Recent content in Tags on CyberCarnet</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cybercarnet.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://cybercarnet.eu/tags/ai/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email</title>
+      <link>https://cybercarnet.eu/tags/email/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/email/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mailcow</title>
+      <link>https://cybercarnet.eu/tags/mailcow/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/mailcow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://cybercarnet.eu/tags/ollama/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/ollama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://cybercarnet.eu/tags/privacy/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rspamd</title>
+      <link>https://cybercarnet.eu/tags/rspamd/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/rspamd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spam</title>
+      <link>https://cybercarnet.eu/tags/spam/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/tags/spam/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

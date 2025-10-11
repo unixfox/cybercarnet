@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on CyberCarnet</title>
+    <link>https://cybercarnet.eu/fr/posts/</link>
+    <description>Recent content in Posts on CyberCarnet</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>fr</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cybercarnet.eu/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protégez votre serveur mail des spams grâce aux LLMs auto-hébergés</title>
+      <link>https://cybercarnet.eu/fr/posts/email-spam-llm/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://cybercarnet.eu/fr/posts/email-spam-llm/</guid>
+      <description>Utilisez les LLM pour bloquer les spams sur votre serveur de messagerie à l&amp;#39;aide de Rspamd et Ollama.</description>
+    </item>
+  </channel>
+</rss>
