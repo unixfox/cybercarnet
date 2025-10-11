@@ -6,7 +6,7 @@ tags: ["email", "spam", "ia", "vie privée", "ollama", "rspamd", "mailcow"]
 ShowToc: true
 ---
 
-Les spams sont devenus de plus en plus présents ces dernières années. Votre adresse email est désormais dans toutes les listes des spammeurs. Les spammeurs sont plus forts que les autres pour configurer correctement le SPF, DKIM et DMARC. Les protections classiques ne fonctionnent plus.
+Les spams sont devenus de plus en plus présents ces dernières années. Votre adresse email est désormais dans toutes les listes des spammeurs. Les spammeurs sont plus forts que les autres pour configurer correctement le SPF, DKIM et DMARC.[^1] Les protections classiques ne fonctionnent plus.
 
 Voici comment vous protéger contre les spams en analysant vos emails avec des LLMs auto-hébergés.
 
