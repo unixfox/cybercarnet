@@ -22,6 +22,10 @@ pagination:
   disableAliases: false
   pagerSize: 5
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 languages:
   en:
     languageName: "English"
