@@ -74,7 +74,7 @@ The Rspamd GPT plugin doesn't yet offer the ability to dynamically add more cont
 ## The workflow in summary
 
 1. If Rspamd has doubts if it's a spam or not. It sends a request to my proxy.
-2. My proxy request from Mullvad Leta the search results for who sent the email and the links included in the email.
+2. My proxy request from the search engine the search results for who sent the email and the links included in the email.
 3. The proxy sends the request to Ollama API.
 4. Ollama respond, the proxy forward the request to Rspamd.
 5. Based on the score given by the LLM, Rspamd classify the email as spam or not.

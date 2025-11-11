@@ -74,7 +74,7 @@ Le plugin GPT de Rspamd n'offre pas encore la possibilité d'ajouter du contexte
 ## En résumé, le fonctionnement par étape
 
 1. Si Rspamd a des doutes si l'email est du spam ou non. Il envoie une requête à mon proxy.
-2. Mon proxy fait une requête sur le service Mullvad Leta avec des informations comme qui a envoyé l'email et les liens contenus dans l'email.
+2. Mon proxy fait une requête sur le moteur de recherche avec des informations comme qui a envoyé l'email et les liens contenus dans l'email.
 3. Le proxy envoie une requête à l'API de Ollama.
 4. Ollama répond, le proxy redirige la réponse à Rspamd.
 5. En fonction du score donné par le LLM, Rspamd classifie si l'email est du spam ou non.
