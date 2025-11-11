@@ -65,7 +65,9 @@ This is especially important because small LLMs have less knowledge about the We
 
 For Web searches, you can use any search engine API. Proprietary API from Google, Brave, Bing. Or APIs that scrape public search engines like [SearXNG Search API](https://docs.searxng.org/dev/search_api.html).
 
-I personally went with the "unofficial" API of [Mullvad Leta](https://leta.mullvad.net). This service fetches search results from Google or Brave. And Mullvad has a good track record for user privacy, and I wanted a reliable API. My mail server and my own Nextcloud are the two things that need to work reliably.
+~~I personally went with the "unofficial" API of [Mullvad Leta](https://leta.mullvad.net). This service fetches search results from Google or Brave. And Mullvad has a good track record for user privacy, and I wanted a reliable API. My mail server and my own Nextcloud are the two things that need to work reliably.~~
+
+Since the shutdown of [Mullvad Leta](https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta), I switched to the library [ddgs](https://github.com/deedy5/ddgs) which allow using multiple engines (only the ones that respect my privacy).
 
 The Rspamd GPT plugin doesn't yet offer the ability to dynamically add more context from an external service, so I created a proxy that intercepts the request between the plugin and the Ollama API. This proxy adds the web searches in the context.
 

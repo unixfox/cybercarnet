@@ -65,7 +65,9 @@ C'est particulièrement important, car les petits LLMs ont beaucoup moins de con
 
 Pour faire des recherches Web, vous pouvez utiliser n'importe quelle API de recherche. Des API propriétaires comme celle de Google, Brave ou Bing. Ou alors une API qui scrape les résultats de moteurs de recherche publics comme celle de [SearXNG Search API](https://docs.searxng.org/dev/search_api.html).
 
-J'ai plutôt utilisé l'API non officielle de [Mullvad Leta](https://leta.mullvad.net). Ce service a comme source les résultats de Google ou Brave. Et Mullvad a fait ses preuves en matière de confidentialité des utilisateurs, et je voulais une API fiable. Mon serveur mail et mon Nextcloud sont les deux services qui doivent toujours bien fonctionner.
+~~J'ai plutôt utilisé l'API non officielle de [Mullvad Leta](https://leta.mullvad.net). Ce service a comme source les résultats de Google ou Brave. Et Mullvad a fait ses preuves en matière de confidentialité des utilisateurs, et je voulais une API fiable. Mon serveur mail et mon Nextcloud sont les deux services qui doivent toujours bien fonctionner.~~
+
+Depuis la fermeture de [Mullvad Leta](https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta), je suis passé à la bibliothèque [ddgs](https://github.com/deedy5/ddgs) qui permet d'utiliser plusieurs moteurs de recherches (ceux qui respectent ma vie privée).
 
 Le plugin GPT de Rspamd n'offre pas encore la possibilité d'ajouter du contexte supplémentaire d'un service externe, donc j'ai créé un proxy qui intercepte les requêtes entre le plugin et l'API de Ollama. Ce proxy ajoute au contexte les résultats de recherche Web.
 
